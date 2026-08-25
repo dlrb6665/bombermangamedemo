@@ -22,7 +22,7 @@
 - **通用对象池系统**（`ObjectPool`）：基于枚举 `ObjectType` + 预制体映射表，统一管理墙、炸弹、爆炸特效、敌人、道具的生成与回收，避免频繁 Instantiate/Destroy
 - **地图生成与回收分离**：`MapController` 用字典记录本关生成的所有对象，切关时批量回收到对象池，再按新参数重新生成
 - **炸弹爆炸使用协程延时 + `Action` 回调**：爆炸结束后回调归还炸弹数量并从列表移除，逻辑解耦清晰
-- **单例模式**贯穿 `GameController`、`ObjectPool`、`AudioController`、`UIController`，全局访问便捷
+- **单例模式**贯穿'GameController`、`ObjectPool`、`AudioController`、`UIController`， 全局访问便捷
 - 支持 PC 键盘（方向键 + 空格）与移动端虚拟摇杆双套输入方案，摇杆代码已预留可一键切换
 
 
