@@ -1,4 +1,4 @@
-[bombermangamedemo_游戏策划案.md](https://github.com/user-attachments/files/35038420/bombermangamedemo_.md)# bombermangamedemo
+# bombermangamedemo
 经典炸弹人玩法的 Unity 实现：程序化生成的网格关卡、十字范围爆炸、属性成长与无尽关卡递进。
 
 ### 核心玩法
