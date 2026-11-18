@@ -1,4 +1,4 @@
-# bombermangamedemo
+# bombermangamedemo项目介绍以及相关策划案和测试报告
 经典炸弹人玩法的 Unity 实现：程序化生成的网格关卡、十字范围爆炸、属性成长与无尽关卡递进。
 
 ### 核心玩法
